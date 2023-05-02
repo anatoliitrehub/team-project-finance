@@ -17,7 +17,7 @@ const UserNav = () => {
     const alertPlan = ()=>{
       Notify.info('Create please your plan');
           }
-    console.log(location)
+    // console.log(location)
     
     if(location.pathname!=="/plan"&&!plan._id){
       setTimeout(alertPlan,5000)
