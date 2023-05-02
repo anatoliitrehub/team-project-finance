@@ -68,7 +68,7 @@ const TransactionDataList = () => {
             <Input
               id="balance"
               name="balance"
-              value={balance ? `${balance} $` : '0 $'}
+              value={balance ? `${balance} ₴` : '0 ₴'}
               placeholder="Account balance: UAH 80,000"
               label="From account"
               onChange={() => balance}
@@ -110,7 +110,7 @@ const TransactionDataList = () => {
                 name="sum"
                 className={s.input}
                 type="text"
-                placeholder="0 $"
+                placeholder="0 ₴"
               />
               <label htmlFor="sum" className={s.label}>
                 Sum

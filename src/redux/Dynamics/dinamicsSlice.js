@@ -27,7 +27,7 @@ const dinamicsSlice = createSlice({
   extraReducers: builder => {
     builder
       .addCase(userChartInfoByMonth.fulfilled, (state, { payload }) => {
-        console.log(payload);
+        // console.log(payload);
       })
       .addCase(userChartInfo.fulfilled, (state, { payload }) => {
         return {
