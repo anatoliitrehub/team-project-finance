@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/team-project-finance/static/css/main.55f47b96.css",
-    "main.js": "/team-project-finance/static/js/main.f75e7caf.js",
+    "main.js": "/team-project-finance/static/js/main.2d4b104d.js",
     "static/css/251.a78dd2ff.chunk.css": "/team-project-finance/static/css/251.a78dd2ff.chunk.css",
     "static/js/251.538c0513.chunk.js": "/team-project-finance/static/js/251.538c0513.chunk.js",
     "static/css/682.a080624d.chunk.css": "/team-project-finance/static/css/682.a080624d.chunk.css",
@@ -41,7 +41,7 @@
     "static/media/device-2x.png": "/team-project-finance/static/media/device-2x.9c4a9c77c3b276f8c95a.png",
     "index.html": "/team-project-finance/index.html",
     "main.55f47b96.css.map": "/team-project-finance/static/css/main.55f47b96.css.map",
-    "main.f75e7caf.js.map": "/team-project-finance/static/js/main.f75e7caf.js.map",
+    "main.2d4b104d.js.map": "/team-project-finance/static/js/main.2d4b104d.js.map",
     "251.a78dd2ff.chunk.css.map": "/team-project-finance/static/css/251.a78dd2ff.chunk.css.map",
     "251.538c0513.chunk.js.map": "/team-project-finance/static/js/251.538c0513.chunk.js.map",
     "682.a080624d.chunk.css.map": "/team-project-finance/static/css/682.a080624d.chunk.css.map",
@@ -58,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.55f47b96.css",
-    "static/js/main.f75e7caf.js"
+    "static/js/main.2d4b104d.js"
   ]
 }
