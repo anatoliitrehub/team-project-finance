@@ -1,0 +1,21 @@
+@import '/assets/styles/mixin';
+.header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    @include tablet{
+        // padding-top: 17px;
+        // padding-bottom: 17px;  
+    }
+    @include desktop{
+    //     padding-top: 15px;
+    // padding-bottom: 15px;
+    }
+}

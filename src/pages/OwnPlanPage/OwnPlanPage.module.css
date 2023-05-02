@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 100px 0;
+    background-size: 100vw;
+    background-image: url("../../../src/assets/img/wave_tablet.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    padding: 66px 0;
+    background-image: url("../../../src/assets/img/wave_desktop.png");
+  }
+}/*# sourceMappingURL=OwnPlanPage.module.css.map */

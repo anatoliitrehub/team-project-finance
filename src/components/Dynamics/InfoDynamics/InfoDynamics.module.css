@@ -1,0 +1,64 @@
+.containerInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.periodOfAccumulating {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 61px;
+  color: #f3f3f3;
+  opacity: 0.87;
+}
+
+.accumulatBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 39px;
+}
+
+.accumulatText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.02em;
+  color: rgba(243, 243, 243, 0.4);
+}
+
+.accumulatValue {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #f3f3f3;
+}
+
+.accumulatBar {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.125714px;
+  color: #f3f3f3;
+}
+
+.picture {
+  width: 245px;
+  height: 209px;
+  background: #1f2534;
+  border-radius: 16px;
+}/*# sourceMappingURL=InfoDynamics.module.css.map */

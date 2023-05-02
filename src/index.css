@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+:root {
+  --main-fonts: "Lato",sans-serif;
+  --second-fonts: "Unbounded", sans-serif;
+  --basic-color: #191d28;
+  --second-color: rgb(99, 89, 233);
+  --main-text: #f3f3f3;
+  --btn-main-bc: #f3f3f3;
+  --accent-color-normal-state: rgb(58, 106, 245);
+  --accent-color-hover: rgb(243, 243, 243);
+  --second-color-hover: rgb(58, 106, 245);
+  --second-color-normal-state: rgb(243, 243, 243);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  font-family: var(--main-fonts);
+  background-color: var(--basic-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text);
+}
+
+button,
+a {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+.react-select__control {
+  width: 232px !important;
+  height: 52px !important;
+  background-color: rgb(58, 106, 245) !important;
+  border-radius: 16px !important;
+  border-color: rgb(58, 106, 245) !important;
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
+}
+
+.react-select__placeholder {
+  color: rgba(243, 243, 243, 0.4) !important;
+}
+
+.react-select__single-value {
+  font-family: "Lato" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  display: flex !important;
+  align-items: center !important;
+  color: #f3f3f3 !important;
+}
+
+.react-select__indicator-separator {
+  display: none;
+}
+
+.react-datepicker__tab-loop {
+  background-color: aqua;
+}
+
+.react-datepicker__tab-loop__start {
+  background-color: aqua;
+}
+
+.react-datepicker__month-containe {
+  background-color: rgb(235, 31, 235);
+}
+
+.react-datepicker__header {
+  background-color: aqua;
+}
+
+.react-datepicker__header--custom {
+  background-color: rgb(235, 31, 235);
+}
+
+.react-datepicker__month-text {
+  padding: 6px 18px;
+  border-radius: 50px;
+}
+
+.react-datepicker__month-text:hover {
+  background-color: #3A6AF5;
+}
+
+.react-datepicker__month-text--keyboard-selected {
+  background-color: green;
+  color: green;
+}/*# sourceMappingURL=index.css.map */

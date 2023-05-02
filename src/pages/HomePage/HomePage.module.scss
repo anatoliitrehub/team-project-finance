@@ -1,0 +1,262 @@
+@import '/assets/styles/mixin';
+
+// .wrapper {
+//   display: flex;
+//   flex-direction: column;
+
+//   @include desktop {
+//     flex-direction: row;
+//     padding-top: 53px;
+//   }
+// }
+
+.common {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @include desktop {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+.imageBlock {
+  display: flex;
+  margin: 0 auto;
+  @include mobile {
+    width: 480px;
+  }
+  @include tablet {
+    width: 768px;
+  }
+  @include desktop {
+    width: 1280px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 53px;
+  }
+}
+
+.picWrapper {
+  position: relative;
+  width: 100%;
+  @include desktop {
+    width: 54%;
+  }
+}
+
+.image {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  @include tablet {
+    // transform: translateY(4%);
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  @include desktop {
+    // width: 616px;
+    // transform: translate(109%, 4%);
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.bluredWrapper {
+  // position: absolute;
+  // left: 200px;
+  // top: -100px;
+  padding: 8px 16px;
+  width: fit-content;
+  filter: drop-shadow(0px 11px 15px rgba(0, 0, 0, 0.2));
+
+  background: rgba(243, 243, 243, 0.053);
+  backdrop-filter: blur(21.47px);
+
+  border-radius: 31px;
+
+  font-family: var(--main-fonts);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  animation-name: scaleBlured;
+  animation-duration: 2000ms;
+  animation-timing-function: cubic-bezier(1, 0.5, 0.5, 0.5);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  @include tablet {
+    font-size: 20px;
+    padding: 16px 24px;
+  }
+
+  @include desktop {
+    font-size: 20px;
+    padding: 16px 24px;
+  }
+}
+
+@keyframes scaleBlured {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.bluredLeft {
+  position: absolute;
+  top: 227px;
+  left: 35px;
+  @include mobile {
+    top: 227px;
+    left: 66px;
+  }
+
+  @include tablet {
+    top: 301px;
+    left: 70px;
+  }
+  @include desktop {
+    top: 312px;
+    left: 0;
+  }
+}
+
+.bluredRight {
+  position: absolute;
+  top: 334px;
+  left: 150px;
+  @include mobile {
+    top: 334px;
+    left: 196px;
+  }
+
+  @include tablet {
+    left: 340px;
+    top: 434px;
+  }
+  @include desktop {
+    left: 306px;
+    top: 433px;
+  }
+}
+
+.titleWrapper {
+  // font-family: var(--second-fonts);
+  // font-weight: 500;
+  padding-top: 60px;
+  padding-bottom: 125px;
+
+  // text-transform: uppercase;
+  // font-feature-settings: 'liga' off;
+  // color: var(--main-text);
+
+  @include mobile {
+    padding-top: 60px;
+    padding-bottom: 125px;
+  }
+
+  @include tablet {
+    padding-top: 72px;
+    padding-bottom: 124px;
+  }
+
+  @include desktop {
+    padding-top: 142px;
+    // padding-top: 53px;
+    // width:646px;
+  }
+}
+
+.title {
+  font-family: var(--second-fonts);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off;
+  color: var(--main-text);
+  display: inline-block;
+
+  @include desktop {
+    width: 690px;
+    display: inline;
+  }
+}
+
+.titleBlue {
+  background-color: var(--accent-color-normal-state);
+  border-radius: 60px;
+  width: fit-content;
+  padding: 10px 24px;
+
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 8px;
+  display: block;
+
+  @include mobile {
+    font-size: 28px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  @include tablet {
+    font-size: 48px;
+    display: inline;
+  }
+  @include desktop {
+    font-size: 48px;
+    display: inline;
+  }
+}
+
+.titleTwo {
+  font-size: 24px;
+  line-height: 1.42;
+
+  @include mobile {
+    font-size: 24px;
+    line-height: 1.42;
+  }
+  @include tablet {
+    font-size: 48px;
+    line-height: 1;
+    display: inline-block;
+    padding: 10px;
+  }
+  @include desktop {
+    font-size: 48px;
+    line-height: 1;
+    padding: 10px;
+  }
+}
+
+.titleText {
+  // font-family: var(--second-fonts);
+  // font-weight: 500;
+  font-size: 24px;
+  line-height: 1.42;
+  letter-spacing: -0.02em;
+
+  @include tablet {
+    font-size: 44px;
+    line-height: 1.28;
+    display: block;
+    margin-top:20px
+  }
+
+  @include desktop {
+    font-size: 44px;
+    line-height: 1.28;
+    width: 500px;
+    display: block;
+    margin-top:20px
+  }
+}

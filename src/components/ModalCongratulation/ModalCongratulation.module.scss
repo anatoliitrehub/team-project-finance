@@ -1,0 +1,20 @@
+.popup {
+  background-image: url('../../assets/img/Congrats.png');
+  background-repeat: no-repeat;
+  padding: 50px 24px;
+}
+
+.title {
+  color: rgba(71, 112, 228, 1);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-text);
+}

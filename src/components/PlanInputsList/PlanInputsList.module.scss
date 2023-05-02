@@ -1,0 +1,48 @@
+@import "../../../assets/styles/mixin";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+    margin-bottom: 20px;
+  
+    @include tablet {
+      display: inline-block;
+      column-count: 2;
+      list-style-position: inside;
+      gap: 32px;
+      height: auto;
+    }
+  }
+  .item {
+    width: 343px;
+    &:not(:last-child) {
+      margin-bottom: 18px;
+    }
+    @include tablet {
+      width: 336px;
+      &:not(:last-child) {
+        margin-bottom: 32px;
+      }
+    }
+  
+    @include desktop {
+      width: 370px;
+    }
+  }
+  
+  
+  .description {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(243, 243, 243, 0.3);
+  }
+  
+  .prevPlanButton {
+    max-width: 200px;
+  }
+  

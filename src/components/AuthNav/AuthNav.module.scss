@@ -1,0 +1,42 @@
+@import '/assets/styles/mixin';
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  @include tablet {
+    gap: 12px;
+  }
+  @include desktop {
+    gap: 12px;
+  }
+}
+
+.buttonLogin {
+  width: 69px;
+  // height: 30px;
+
+  @include tablet {
+    width: 86px;
+    // height: 40px;
+  }
+  @include desktop {
+    width: 86px;
+    // height: 40px;
+  }
+}
+
+.buttonReg {
+  width: 101px;
+  // height: 30px;
+
+  @include tablet {
+    width: 132px;
+    // height: 40px;
+  }
+  @include desktop {
+    width: 132px;
+    // height: 40px;
+  }
+}

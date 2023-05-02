@@ -1,0 +1,12 @@
+@import '/assets/styles/mixin';
+.btnBox {
+  display: flex;
+  gap: 13px;
+  margin-top: 24px;
+
+  @include tablet {
+    display: flex;
+    gap: 14px;
+    margin-top: 32px;
+  }
+}

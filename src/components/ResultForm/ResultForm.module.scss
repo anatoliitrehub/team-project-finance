@@ -1,0 +1,78 @@
+@import '/assets/styles/mixin';
+
+.wrapper {
+  padding-top: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 40px;
+  margin-top: 64px;
+  border-radius: 16px;
+  background-color: var(--accent-color-normal-state);
+  @include tablet {
+    width: 672px;
+    margin-top: 100px;
+  }
+  @include desktop {
+    width: 770px;
+    margin-top: 28px;
+  }
+}
+
+.innerWrapper {
+  @include tablet {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  @include tablet {
+    flex-direction: column-reverse;
+
+    width: 200px;
+  }
+}
+
+.title {
+  @include font(700, 18px, 1.33);
+  letter-spacing: 0.15px;
+  color: var(--second-color-normal-state);
+  text-align: center;
+  margin-bottom: 18px;
+
+  @include tablet {
+    text-align: start;
+  }
+}
+
+.input {
+  height: 46px;
+}
+
+.firstInput {
+  margin-bottom: 18px;
+
+  @include tablet {
+    margin-bottom: 0;
+    margin-right: 18px;
+  }
+}
+
+.secondInput {
+  margin-bottom: 28px;
+
+  @include tablet {
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+  @include desktop {
+    margin-right: 54px;
+  }
+}
+
+.submitButton {
+  height: 46px;
+}

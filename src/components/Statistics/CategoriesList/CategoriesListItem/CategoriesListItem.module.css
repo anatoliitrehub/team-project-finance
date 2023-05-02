@@ -1,0 +1,52 @@
+.main {
+  border-bottom: 1px solid rgba(243, 243, 243, 0.06);
+}
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.main:last-child {
+  border-bottom: none;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 15px 8px 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .li {
+    width: 440px;
+    padding: 24px 0 24px 32px;
+  }
+}
+
+.persent {
+  padding: 0 0 18px 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.4);
+}
+@media screen and (min-width: 768px) {
+  .persent {
+    padding: 24px 150px 24px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .persent {
+    padding-right: 215px;
+  }
+}/*# sourceMappingURL=CategoriesListItem.module.css.map */

@@ -1,0 +1,17 @@
+@import '../../../assets/styles/mixin';
+
+.wrapper {
+  padding: 50px 0;
+
+  @include tablet {
+    padding: 100px 0;
+    background-size: 100vw;
+    background-image: url('../../../src/assets/img/wave_tablet.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  @include desktop {
+    padding: 66px 0;
+    background-image: url('../../../src/assets/img/wave_desktop.png');
+  }
+}

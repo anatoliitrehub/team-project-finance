@@ -1,0 +1,59 @@
+@import '/assets/styles/mixin';
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.itemBurger {
+  display: inline-block;
+  vertical-align: middle;
+  @include desktop {
+    display: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.itemButton {
+  width: 119px;
+  height: 40px;
+  display: none;
+  @include desktop {
+    display: block;
+  }
+}
+
+.diagram {
+  width: 40px;
+  height: 40px;
+  transition: 250ms linear transform;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+.avatar {
+  font-weight: 700;
+  color: rgba(36, 36, 36, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  border: 2px solid var(--accent-color-normal-state);
+  background-color: var(--main-text);
+}

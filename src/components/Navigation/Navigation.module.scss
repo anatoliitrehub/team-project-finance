@@ -1,0 +1,8 @@
+@import '/assets/styles/mixin';
+
+.burgerHidden{
+    display: none;
+    @include desktop{
+        display: block;
+    }
+}

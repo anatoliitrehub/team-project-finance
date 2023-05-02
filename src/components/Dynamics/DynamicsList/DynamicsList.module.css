@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 14px;
+}
+
+.list_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px 10px;
+
+  background: rgba(31, 37, 52, 0.5);
+  border-radius: 16px;
+}
+
+.label {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.16px;
+
+  color: rgba(243, 243, 243, 0.6);
+}
+
+.amount {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.16px;
+
+  color: #f3f3f3;
+}

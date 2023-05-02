@@ -1,0 +1,39 @@
+.style {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 221px;
+  height: 56px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 56px;
+  box-sizing: border-box;
+  background: #252C41;
+  border-top: 1px solid #3A6AF5;
+  border-radius: 16px 16px 0px 0px;
+  color: #F3F3F3;
+}
+
+.NoActive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 56px;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(31, 37, 52, 0.4);
+  border-radius: 16px 16px 0px 0px;
+  color: rgba(243, 243, 243, 0.4);
+}/*# sourceMappingURL=StatisticPageNav.module.css.map */

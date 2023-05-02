@@ -1,0 +1,19 @@
+.title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(243, 243, 243);
+  margin-left: 16px;
+}
+@media tablet {
+  .title {
+    margin-left: 32px;
+  }
+}
+@media desktop {
+  .title {
+    margin-left: 32px;
+  }
+}/*# sourceMappingURL=DynamicsTitle.module.css.map */

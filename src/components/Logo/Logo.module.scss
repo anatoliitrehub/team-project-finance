@@ -1,0 +1,48 @@
+@import '/assets/styles/mixin';
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    justify-content: flex-start;
+    align-items: center;
+    // width:25%;
+    height: 28px;
+    @include mobile{
+        width:93px;
+        height: 22px;
+    }
+    @include tablet{
+    width:138px;
+    height: 28px;
+    }
+    @include desktop{
+    width:138px;
+    height: 28px;
+    }
+    
+}
+
+.image{
+    width:22px;
+    height: 22px;
+    @include tablet{
+        width:26px;
+    height: 26px;
+    }
+    @include desktop{
+        width:26px;
+    height: 26px;
+    }
+}
+
+
+
+.title{
+    font-family: var(--main-color);
+font-size: 20px;
+font-weight: 900;
+line-height: 1;
+letter-spacing: 0px;
+color: var(--main-text);
+}

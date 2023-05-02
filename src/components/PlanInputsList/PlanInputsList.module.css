@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list {
+    display: inline-block;
+    -moz-column-count: 2;
+         column-count: 2;
+    list-style-position: inside;
+    gap: 32px;
+    height: auto;
+  }
+}
+
+.item {
+  width: 343px;
+}
+.item:not(:last-child) {
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    width: 336px;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .item {
+    width: 370px;
+  }
+}
+
+.description {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  color: rgba(243, 243, 243, 0.3);
+}
+
+.prevPlanButton {
+  max-width: 200px;
+}/*# sourceMappingURL=PlanInputsList.module.css.map */
