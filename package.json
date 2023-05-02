@@ -1,8 +1,8 @@
 {
-  "name": "finance",
+  "name": "team-project-finance",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aratskov.github.io/finance/",
+  "homepage": "https://anatoliitrehub.github.io/team-project-finance/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
     "@reduxjs/toolkit": "^1.9.5",
