@@ -19,9 +19,9 @@ export const getTransactions = createAsyncThunk(
   'statistics/getTransactions',
   async (payload, thunkApi) => {
     const { month, year } = payload;
-    console.log(1);
+    // console.log(1);
     const { data } = await StatisticsService.getTransactions(month, year);
-    console.log(2);
+    // console.log(2);
     if (typeof data === 'string') return [];
     return data;
   }

@@ -1,6 +1,6 @@
-// import { useState } from 'react';
 import st from './UserNav.module.scss';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+// import { NavLink} from 'react-router-dom';
 import {selectPersonalPlan} from 'redux/PersonalPlan/personalPlanSelectors';
 import { useSelector } from 'react-redux';
 import { Notify } from 'notiflix';
@@ -14,18 +14,16 @@ const UserNav = () => {
 
   // const handlerPlan = () => {
     
-    const alertPlan = ()=>{
-      Notify.info('Create please your plan');
-          }
-    // console.log(location)
+    // const alertPlan = ()=>{
+    //   Notify.info('Create please your plan');
+    //       }
     
     if(location.pathname!=="/plan"&&!plan._id){
-      setTimeout(alertPlan,5000)
+      // setTimeout(alertPlan,5000)
+            Notify.info('Please, check or create your plan');
+
       navigate("/plan")
     }  
-// {/* <Navigate to={"/plan"}/> */}
-
-  // }
 
   return (
     <ul className={st.list}>
